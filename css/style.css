@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+header{
+    background-color: #F6F6F6;
+    height: 150px;
+    width: 100%; 
+    display: flex;
+}
+.EspaceClientEtMenuDeNavigation{
+   width: 100%;
+   padding-top: 25px;
+   padding-left: 1200px
+}
+.MenuDeNavigation{
+    padding-top: 60px;
+    width: 100%;
+    padding-right: 50px;
+}
+.EspaceClient{
+   padding-left: 150px  
+}
+.MenuDeNavigation li{
+    display: flex;  
+    justify-content: space-between;
+}
+.LogoSport{
+    padding-left: 10px;
+    padding-top: 30px;
+}
+main{
+    padding-top: 20px;
+    background-color: #1C1C1C;
+    width: 100%; 
+}
+.DebutDuMilieuDePage{
+    margin: auto;
+    width: 70%;
+}
+#ImageCentrale{  
+    width: 100%;
+    background-color: #F3F3F3;
+}
+.MilieuDePage{
+    margin: auto;
+    background-color: #F3F3F3;
+    width: 70%;
+}
+footer{
+    background-color: #373737;    
+}
+#PremiereGrille{
+    display: flex;
+    justify-content: space-between;  
+}
+#DeuxiemeGrille{
+    display: flex;
+    justify-content: space-between;
+}
+#PremiereGrille,#DeuxiemeGrille{
+    padding-left: 180px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.ImageGantdeBoxeRougeDroite,.ImageGantdeBoxeRougeDroiteBas{
+    padding-right: 180px;
+}
+#ImageGRouge,#ImageGNoir{
+    width: 50%;
+}
+.pourcentage{
+    background-color: #282A2D;
+    height: 35px;
+    width: 65px;
+    border-radius: 5px;
+    color: #EA9F06;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 20px; 
+}  
+.ReductionPourcentage{
+    padding-right: 150px;     
+}
+.RectanglePourcentage{
+    padding-left: 300px;
+    position: absolute;
+    z-index: 10;
+}
+.BoutonVoirLaVente{
+    background-color: #2A2A2A;
+    color: white;
+    width: 150px;
+    height: 30px;
+}
+.PrixDéduit{
+    display: flex;
+    justify-content: space-evenly;
+}
+#PrixBarré{
+    text-decoration: line-through;
+    font-weight: bolder;
+    color:#2A2A2A;
+    font-size: 20px;
+}
+#PrixNouveau{
+    font-weight: bolder;
+    font-size: 20px;
+    color: #EA9F06;
+}
+.BarreDeNavigation{
+    background-color: #FFFFFF;
+    width: 30%;
+    margin: auto;
+    border-radius: 8px;
+}
+.BarreDeNavigation li{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    font-size: medium;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    position: relative;
+    z-index: 10;
+}
+.RelationClient{  
+    color: white;
+    display: flex;
+    padding-top: 30px;
+    width: 100%;
+    padding-left: 20px;
+    font-size: 10px; 
+    text-align: center;
+}
+#AvisClient{
+    width: 25%;    
+}
+#Livraison{
+    width: 25%;
+}
+#Securité{
+    width: 25%;
+}
+#Satisfaction{
+    width: 25%;
+}
+.LogoReseauxSociaux{
+    padding-top: 80px;
+    text-align: center;
+}
+.Copyright{
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+#Facebook{
+    padding-right: 80px;
+}
+#Twitter{
+    padding-right: 60px;
+}
+@media screen and (max-width:576px){
+main,header{
+   width: fit-content;  
+}
+.MilieuDePage{
+   width: 70%;
+}
+footer{
+    width: 100%;
+}
+header{
+    padding:0;
+    margin: 0;
+}
+.MenuDeNavigation{
+    padding: 0;
+    margin: 0;
+}
+.PremiereGrille, .DeuxiemeGrille{
+    padding: 0%;
+    margin: 0%;
+}    
+}
